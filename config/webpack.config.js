@@ -39,6 +39,7 @@ var config = {
       },
 
 
+      
     //   { test: /\.css$/, 
     //     use: ExtractTextPlugin.extract({
 		// 		fallback: "style-loader",
