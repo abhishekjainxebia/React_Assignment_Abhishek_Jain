@@ -24,8 +24,8 @@ export default class Stateview extends PureComponent {
         return (
             <div id="stateView">
                 <table className="stateView">
-                    <th>Name</th>
-                    <th>Details</th>
+                    <th>State Details</th>
+                    <th></th>
                     <tr>
                         <td>State ID:</td>
                         <td>{state.id}</td>
