@@ -58,14 +58,14 @@ export default class StateEdit extends PureComponent {
                         <td>State Name:</td>
                         <td>
                             <input name="name" type="text" value={name}
-                            onChange= {(e) => this.changeValue(e)}/>
+                            onChange= {(e) => this.changeValue(e)} required/>
                         </td>
                     </tr>
                     <tr>
                         <td>State Code:</td>
                         <td>
                             <input name="code" type="text" value={code}
-                            onChange= {(e) => this.changeValue(e)}/>
+                            onChange= {(e) => this.changeValue(e)} required/>
                         </td>
                     </tr>
                 </table>

@@ -51,14 +51,14 @@ export default class Statecreate extends PureComponent {
                     <tr>
                         <td>State Name:</td>
                         <td>
-                            <input name="name" type="text"
+                            <input name="name" type="text" required
                             onChange= {(e) => this.changeValue(e)}/>
                         </td>
                     </tr>
                     <tr>
                         <td>State Code:</td>
                         <td>
-                            <input name="code" type="text"
+                            <input name="code" type="text" required
                             onChange= {(e) => this.changeValue(e)}/>
                         </td>
                     </tr>
